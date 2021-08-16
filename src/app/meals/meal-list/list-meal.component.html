@@ -1,0 +1,26 @@
+<div class="modal-body">
+   <div class="col-md-12">
+      <div class="form-group row">
+         <div class="col-sm-4">
+            <label>Search Byname</label><br>
+            <input type="text" [(ngModel)]="byname">
+            <hr>
+            <button type="button" class="btn btn-md btn-primary" (click)='namelist();'>Search</button>
+         </div>
+         <br>
+         <div class="col-sm-4">
+            <label>Search ByID</label><br>
+            <input type="text" [(ngModel)]="byid">
+            <hr>
+            <button type="button" class="btn btn-md btn-primary" (click)='idlist();'>Search</button>
+         </div>
+         <br>
+         <div class="col-sm-4">
+            <label>Search Byletter</label><br>
+            <input type="text" [(ngModel)]="byletter">
+            <hr>
+            <button type="button" class="btn btn-md btn-primary" (click)='letterlist();'>Search</button>
+         </div>
+      </div>
+   </div>
+</div>
